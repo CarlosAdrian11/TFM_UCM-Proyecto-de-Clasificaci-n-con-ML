@@ -6,7 +6,7 @@ Esta aplicación de Streamlit predice el riesgo de enfermedad coronaria basándo
 
 La aplicación está desplegada en Streamlit Cloud y puedes acceder a ella directamente haciendo clic en el siguiente enlace:
 
-<a href="https://mlproyect-predictor-enfermedad.streamlit.app" target="_blank">
+<a href="https://tfm-predictor-de-enfermedad-cardiaca.streamlit.app/" target="_blank">
     <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Abrir en Streamlit">
 </a>
 
