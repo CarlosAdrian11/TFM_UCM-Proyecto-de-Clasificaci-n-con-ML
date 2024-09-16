@@ -40,7 +40,7 @@ apellido = st.sidebar.text_input("Apellido")
 # Entrada de datos del usuario en la barra lateral
 sex = st.sidebar.selectbox("Sexo", [0, 1], format_func=lambda x: ["0 = Mujer", "1 = Hombre"][x])
 age = st.sidebar.number_input("Edad", 0, 120, 0)
-cp = st.sidebar.selectbox("Tipo de dolor en el pecho", [0, 1, 2, 3], format_func=lambda x: ["0 = Angina típica", "1 = Angina atípica", "2 = Dolor no anginoso", "3 = Asintomático"][x])
+cp = st.sidebar.selectbox("Tipo de dolor en el pecho", [0, 1, 2, 3], format_func=lambda x: ["1 = Angina típica", "2 = Angina atípica", "3 = Dolor no anginoso", "4 = Asintomático"][x])
 trestbps = st.sidebar.number_input("Presión arterial en reposo", 0, 200, 0)
 chol = st.sidebar.number_input("Colesterol", 0, 564, 0)
 restecg = st.sidebar.selectbox("Resultados electrocardiográficos", [0, 1, 2], format_func=lambda x: ["0 = Normal", "1 = Anormalidad ST-T", "2 = Hipertrofia ventricular izquierda"][x])
